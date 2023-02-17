@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Hosting;
 namespace Middleware.Tests;
-public class MyAuthTests
+public class AuthMiddleWareTests
 {
     [Fact]
     public async Task When_NoParams_Should_NotAuthorize()
